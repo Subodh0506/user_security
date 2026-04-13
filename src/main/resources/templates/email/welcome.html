@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; background-color: #f5f5f5; }
+        .container { max-width: 600px; margin: 0 auto; background-color: #ffffff; }
+        .banner { display: block; width: 100%; max-width: 600px; height: auto; margin: 0; padding: 0; }
+        .body-wrap { padding: 24px 24px 32px; }
+        .greeting { margin: 0 0 20px; font-size: 16px; color: #333; }
+        .content p { margin: 0 0 16px; font-size: 15px; color: #333; }
+        .content p:last-of-type { margin-bottom: 24px; }
+        .closing { margin: 0 0 8px; font-size: 15px; }
+        .signature { margin: 0 0 24px; font-weight: bold; font-size: 15px; }
+        .footer { font-size: 12px; color: #888; padding-top: 20px; border-top: 1px solid #eee; }
+        .footer p { margin: 0 0 8px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="cid:welcomeImage" alt="Welcome" class="banner" width="600" style="display:block; width:100%; max-width:600px; height:auto;"/>
+        <div class="body-wrap">
+            <p class="greeting">Hi {{userName}},</p>
+            <div class="content">
+                <p>Thank you for joining our Spring Boot Application Platform. Your account has been created successfully.</p>
+                <p>We're glad to have you on board. Explore the platform and feel free to reach out if you need any help.</p>
+                <p>We wish you the best and look forward to having you with us!</p>
+            </div>
+            <p class="closing">Many thanks,</p>
+            <p class="signature">Yedire Subodh<br>Spring Boot Application Platform</p>
+            <div class="footer">
+                <p>This is an automated message. Please do not reply to this email.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
